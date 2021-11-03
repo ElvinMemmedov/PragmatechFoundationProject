@@ -1,0 +1,63 @@
+#info{
+    background: rgb(223, 237, 241);
+    padding: 10px;
+    
+}
+.info-container{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    
+}
+.info-contact,
+.info-social{
+    display: flex;
+   
+}
+
+.info-contact{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.info-contact div{
+    display: flex;
+}
+.info-contact-element,
+.info-social-element{
+    margin-right: 15px;
+
+}
+#features{
+    background: hsl(222, 30%, 15%);
+    padding: 40px 0;
+
+}
+.features-item{
+    height: 20px;
+}
+.row h1{
+    color: white;
+}
+#navbar{
+    padding: 50px 0;
+}
+.navbar-menu ul{
+    display: flex;
+    justify-content: end;
+}
+.services{
+    background:lightgray;
+    padding: 40px 0px;
+}
+.service-heading{
+display: flex;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+}
+.service-item{
+    border: 1px solid grey;
+    min-height: 300px;;
+}
