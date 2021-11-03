@@ -97,3 +97,13 @@ h4{
     letter-spacing: 1px;
  
 }
+.top-car{
+    background-color: #fff
+}
+    
+.top-car .pro-image{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
