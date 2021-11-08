@@ -100,6 +100,85 @@ body{
     margin: 0px;
     padding-top: 3px;
 }
+.cars{
+   background: white;
+    width:1200px;
+  
+   
+}
+
+.browse-car h2{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    padding: 18px 25px 15px 25px;
+    position: relative;
+    display: inline-block;
+    font-family: 'Saira Condensed', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: #23292e;
+    margin-top: 0px;
+    min-width: 250px;
+    
+  
+}
+.car-type{
+    
+    margin: 0 auto;
+    height: 200px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.cars-type1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.cars-type2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cars-type3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cars-type4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cars-type5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cars-type6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cars-type7{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cars-type8{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
 
 .forum{
     display: flex;
@@ -117,37 +196,6 @@ body{
     color: white;
 }
 
-h5{
-    margin: 0px;
-    margin-bottom: 10px;
-    /* display: block; */
-    padding: 0px;
-    font-family: 'Saira Condensed', sans-serif;
-    font-size: 26px;
-    letter-spacing: 0px;
-    font-weight: 500;
-    color: #fbe122;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-h4{
-    margin-bottom: 23px;
-    display: block;
-    padding: 0px;
-    font-family: 'Saira Condensed', sans-serif;
-    font-size: 30px;
-    letter-spacing: 1px;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #fff;
-    line-height: 1.1;
-
-}
-.col-12{
-    text-align: center;
-    
-}
-
 
 .navbar-menu ul{
     display: flex;
@@ -162,15 +210,6 @@ h4{
     letter-spacing: 1px;
  
 }
-.top-car{
-    background-color: #fff
-}
-    
-.top-car .pro-image{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    
-}
+
 
 
