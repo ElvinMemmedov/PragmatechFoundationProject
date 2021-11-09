@@ -169,7 +169,7 @@ body{
     line-height: 1.1;
 
 }
-.col-12{
+.Newsletter .col-12{
     text-align: center;
     
 }
@@ -188,6 +188,26 @@ body{
     letter-spacing: 1px;
  
 }
-
-
+.menu{
+    width: 100%;
+    height: 400px;
+}
+.logo{
+    vertical-align: middle;
+    cursor: pointer;
+    text-align: left;
+    display: block;
+    float: left;
+    padding: 37px 40px 0px 0px;
+    line-height: 100px;
+    background: #fbe122;
+    position: relative;
+}
+.navbar-menu{
+   height: 150px;
+   width: 100%;
+   border: 1px solid black;
+   margin: 0 auto;
+  padding: 5px;
+}
 
