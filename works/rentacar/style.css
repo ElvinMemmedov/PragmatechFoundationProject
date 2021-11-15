@@ -6,24 +6,26 @@ body{
     background:#f5f5f5 ;
     font-size: 16px;
 }
+/* info start */
 
-}
+
+
+
 .info .container{
     background: white;
     margin: 0 auto;
     width: 1200px;
     height: 200px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-
-    
+    justify-content: space-between;
 }
+
+
 .words{
 
  display: flex;
- justify-content: center;
- align-items: center;
+ justify-content:space-between;
+ 
 
 }
 .words-text h6{
@@ -44,27 +46,19 @@ body{
 
 .sold{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
 }
-.sold-text h6{
-    font-family: 'Saira Condensed', sans-serif;
-    font-size: 26px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    color: #333;
-    margin: 0px;
-}
-.sold-text h1{
+.words-text h1{
     color: #999;
     padding: 0px;
     margin: 0px;
     padding-top: 3px;
 }
 .offers{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+     display: flex;
+     justify-content:center;
+     align-items: center;
 }
 .offers-text h6{
     font-family: 'Saira Condensed', sans-serif;
@@ -84,7 +78,7 @@ body{
 
 .compare{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
  }
 .compare-text h6{
@@ -95,13 +89,7 @@ body{
     color: #333;
     margin: 0px;
 }
-.compare-text h1{
-    color: #999;
-    padding: 0px;
-    margin: 0px;
-    padding-top: 3px;
-}
-   
+/* info end */
 
 .car-categorius{
     
@@ -127,7 +115,7 @@ body{
 
 
 
-
+/* newsletter start */
 .forum{
     display: flex;
     justify-content: center;
@@ -178,37 +166,68 @@ body{
     text-align: center;
     
 }
+/* newsletter end  */
 
-
+/* navbar start */
 #navbar{
     padding: 15px 0px;
     font-family: 'Saira Condensed', sans-serif;
-}
-.navbar-container{
-    width: 1200px;
-    margin: 0px auto;
-}
-
+    }
+    .navbar-container{
+     width: 1100px;
+     margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+    
+    }
+   
 .navbar-nav{
-
-}
-.navbar-nav ul{
-   ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
 }
 .navbar-nav ul li a{
-    padding: 0px 25px;
-    font-weight: 600;
-}
-.navbar-brand img{
-    background: yellow;
-}
-.navbar-brand {
-  
+    padding: 0px 15px;
+    
+
+} 
+.navbar-nav ul{
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
 }
-.call{
+/* seller section start */
+
+    
+.container{
+    margin-right: auto;
+    margin-left: auto;
+}
+.seller-content{
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
+    
 }
 
+
+.seller-header{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    background: #f5f5f5;
+    line-height: 1.6em;
+}
+.seller-header h2{color: #fff;
+font-size: 22px;
+font-weight: 500;
+margin-bottom: 0px;
+padding: 22px 25px 22px 25px;
+position: relative;
+display: inline-block;
+font-family: 'Saira Condensed', sans-serif;
+letter-spacing: 1px;
+text-transform: uppercase;
+background: #50b2fc;
+margin-top: 0px;
+min-width: 250px;
+}
