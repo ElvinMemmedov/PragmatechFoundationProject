@@ -29,6 +29,7 @@
     margin-right: 15px;
 
 }
+/* features start */
 #features{
     background: hsl(222, 30%, 15%);
     padding: 40px 0;
@@ -40,13 +41,8 @@
 .row h1{
     color: white;
 }
-#navbar{
-    padding: 50px 0;
-}
-.navbar-menu ul{
-    display: flex;
-    justify-content: end;
-}
+
+
 .services{
     background:lightgray;
     padding: 40px 0px;
