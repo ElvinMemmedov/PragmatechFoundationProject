@@ -1,0 +1,224 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background: #f5f5f5;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    background: #f5f5f5;
+    line-height: 1.6em;
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial
+}
+
+/* info start */
+#info {
+    padding: 0px 0 0;
+    overflow: hidden;
+    color: #fff;
+}
+.info-contact{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.icon-truck, .icon-money, .icon-support, .icon-return{
+    display: inline-block !important;
+    font-size: 24px;
+    margin: auto;
+    color: #66cc66;
+    text-align: center;
+    width: 62px!important;
+    padding-left: 0px;
+    float: left;
+    height: 102px;
+    line-height: 62px;
+    vertical-align: top;
+    padding: 20px;
+}
+.info-contact h6{
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #333;
+    margin: 0px;
+    padding: 10px;
+   
+}
+.content p{
+    color: #999;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 3px;
+}
+  /* info end */
+
+
+
+
+
+
+
+
+
+/* car start */
+.car-categorius {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.car-title h2 {
+    color: #fff;
+    /* font-size: 22px; */
+    font-weight: 500;
+    margin-bottom: 0px;
+    padding: 18px 25px 15px 25px;
+    position: relative;
+    display: inline-block;
+    font-family: 'Saira Condensed', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: #23292e;
+    margin-top: 0px;
+    min-width: 250px;
+}
+
+/* cars end */
+
+/* newsletter start */
+.forum {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+}
+
+.button {
+    padding: 20px;
+    background: yellow;
+
+}
+
+.subscribe:hover {
+    background: black;
+    color: white;
+}
+
+.newsletter-content {
+    background: url(http://themesground.com/harrier-demo/V1/images/newsletter-bg.jpg);
+    padding: 40px;
+}
+
+.newsletter-content h5 {
+    margin: 0px;
+    margin-bottom: 10px;
+    /* display: block; */
+    padding: 0px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 26px;
+    letter-spacing: 0px;
+    font-weight: 500;
+    color: #fbe122;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.newsletter-content h4 {
+    margin-bottom: 23px;
+    display: block;
+    padding: 0px;
+    font-family: 'Saira Condensed', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1.1;
+
+
+}
+
+.Newsletter .col-12 {
+    text-align: center;
+
+}
+
+/* newsletter end  */
+
+/* navbar start */
+#navbar {
+    padding: 15px 0px;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.navbar-container {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar-nav ul li a {
+    padding: 0px 15px;
+
+
+}
+
+.navbar-nav ul {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+
+/* seller section start */
+
+
+.seller-container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.seller-content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.seller-header {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    background: #f5f5f5;
+    line-height: 1.6em;
+}
+
+.seller-header h2 {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    padding: 22px 25px 22px 25px;
+    position: relative;
+    display: inline-block;
+    font-family: 'Saira Condensed', sans-serif;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: #50b2fc;
+    margin-top: 0px;
+    min-width: 250px;
+}
